@@ -15,7 +15,3 @@ Instead of total separation through Linux containers without a UI, most services
 * **Matrix Synapse:** Private, end-to-end encrypted messaging server.
 * **Cloudflare Tunnels:** Secure zero-trust access for web services via custom domain without opening public ports.
 
-## Repository Structure
-* `/home-assistant/` - Sanitized automation YAML configs.
-* `/network/` - Network topology diagram & DNS configuration notes.
-
