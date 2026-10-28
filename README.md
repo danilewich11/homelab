@@ -1,11 +1,11 @@
 # homelab
 This is an overview of my home server infrastructure running on bare-metal Proxmox VE. Maybe this could help or inspire someone.
 
-## 💻 Hardware
+## Hardware
 * Model: Fujitsu Esprimo Q556
 * Hypervisor: Proxmox VE
 
-## 🏗️ Architecture & Services
+## Architecture & Services
 Instead of total separation through Linux containers without a UI, most services run as add-ons inside Home Assistant.
 
 * **Home Assistant:** Smart home hub bridging IoT devices across Apple HomeKit and Yandex Smart Home.
@@ -15,7 +15,7 @@ Instead of total separation through Linux containers without a UI, most services
 * **Matrix Synapse:** Private, end-to-end encrypted messaging server.
 * **Cloudflare Tunnels:** Secure zero-trust access for web services via custom domain without opening public ports.
 
-## 📂 Repository Structure
+## Repository Structure
 * `/home-assistant/` - Sanitized automation YAML configs.
 * `/network/` - Network topology diagram & DNS configuration notes.
 
